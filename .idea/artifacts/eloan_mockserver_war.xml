@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="eloan-mockserver:war">
+    <output-path>$PROJECT_DIR$/p2p/eloan-mockserver/target</output-path>
+    <root id="archive" name="eloan-mockserver-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="eloan-mockserver:war exploded" />
+    </root>
+  </artifact>
+</component>
