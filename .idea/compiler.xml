@@ -16,9 +16,9 @@
     <bytecodeTargetLevel>
       <module name="core" target="1.7" />
       <module name="eloan-mockserver" target="1.7" />
-      <module name="jedis" target="1.7" />
+      <module name="jedis" target="1.5" />
       <module name="mgrtool" target="1.7" />
-      <module name="parent" target="1.7" />
+      <module name="parent" target="1.5" />
       <module name="uiweb" target="1.7" />
     </bytecodeTargetLevel>
   </component>

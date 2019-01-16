@@ -25,7 +25,7 @@
     where id = #{id,jdbcType=BIGINT} and version = #{version}
   </delete>
   
-  <insert id="insert" parameterType="com.eloan.business.domain.Userinfo" keyProperty="id" >
+  <insert id="insert" parameterType="com.eloan.business.domain.Userinfo" useGeneratedKeys="true" keyProperty="id" >
     insert into userinfo (id,version, bitState, authScore,email,phoneNumber, incomeGrade_id, 
       marriage_id, kidCount_id, educationBackground_id, houseCondition_id)
     values (#{id},0, #{bitState,jdbcType=BIGINT}, #{authScore},#{email},#{phoneNumber,jdbcType=VARCHAR}, #{incomeGrade.id,jdbcType=BIGINT}, 
